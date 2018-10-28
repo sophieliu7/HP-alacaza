@@ -47,6 +47,10 @@ hr {
   background-color: white;
 }
 
+.font-white {
+  color: white;
+}
+
 .white:hover {
   background-color: black;
   transition: 0.3s ease;
@@ -69,6 +73,7 @@ hr {
   background-color: white;
   padding: 5px 10px;
   border-radius: 6px;
+  color: red;
 }
 
 .btn-white:hover {
@@ -91,4 +96,8 @@ input{
 
 .img-spacing{
   padding-bottom: 10px;
+}
+
+.small {
+  font-size: 10px;
 }
