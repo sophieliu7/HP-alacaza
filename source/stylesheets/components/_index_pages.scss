@@ -2,20 +2,31 @@ hr {
     display: block;
     height: 4px;
     border: 0;
-    border-top: 4px solid #ccc;
+    border-top: 4px solid #ef4d4c;
     // margin: 1em 0;
     // padding: 0;
     width: 150px;
 }
 
 
-.hp-container {
-  margin: 0px 90px;
+@media(max-width: 720px) {
+  .hp-container {
+    padding: 10px 10px;
+  }
 }
+
+@media(min-width: 720px) {
+  .hp-container {
+    padding: 60px 200px;
+  }
+}
+
+
+
+
 
 .hp-white {
   background-color: white;
-  padding: 80px;
 }
 
 .hp-grey {
@@ -23,6 +34,45 @@ hr {
 }
 
 .hp-red {
-  background-color: red;
+  background-color: #ef4d4c;
   padding: 80px;
+}
+
+.hp-card-title {
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+.white {
+  background-color: white;
+}
+
+.white:hover {
+  background-color: black;
+  transition: 0.3s ease;
+}
+
+.btn-red {
+  background-color: #ef4d4c;
+  padding: 5px 10px;
+  border-radius: 6px;
+  color: white;
+}
+
+.btn-red:hover {
+  color: white;
+  background-color: black;
+  transition: 0.3s ease;
+}
+
+.btn-white {
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 6px;
+}
+
+.btn-white:hover {
+  color: white;
+  background-color: black;
+  transition: 0.3s ease;
 }
