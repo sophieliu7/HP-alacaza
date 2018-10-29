@@ -1,11 +1,13 @@
 hr {
     display: block;
-    height: 4px;
+    height: 6px;
     border: 0;
-    border-top: 4px solid #ef4d4c;
+    // border-top: 4px solid #ef4d4c;
+    background-color: #EB5B51;
+    background-image: linear-gradient(to right, #EB5B51 , #EB7551);
     // margin: 1em 0;
     // padding: 0;
-    width: 150px;
+    width: 165px;
 }
 
 
@@ -34,7 +36,7 @@ hr {
 }
 
 .hp-red {
-  background-color: #ef4d4c;
+  background-color: #eb5651;
   padding: 80px;
 }
 
@@ -57,15 +59,17 @@ hr {
 }
 
 .btn-red {
-  background-color: #ef4d4c;
-  padding: 5px 10px;
-  border-radius: 6px;
+  background-color: #EB5B51;
+  background-image: linear-gradient(to right, #EB5B51 , #EB7551);
+  padding: 5px 20px;
+  border-radius: 7px;
   color: white;
 }
 
 .btn-red:hover {
   color: white;
   background-color: black;
+  background-image: none;
   transition: 0.3s ease;
 }
 
@@ -73,7 +77,7 @@ hr {
   background-color: white;
   padding: 5px 10px;
   border-radius: 6px;
-  color: red;
+  color: #EB5651;
 }
 
 .btn-white:hover {
@@ -100,4 +104,28 @@ input{
 
 .small {
   font-size: 10px;
+}
+
+.light-35 {
+  font-size: 35px;
+  font-weight: lighter;
+}
+
+// .30-light {
+//   font-size: 35px;
+//   font-weight: light;
+// }
+
+.light-25 {
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.light-22 {
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+.regular-25 {
+  font-size: 25px;
 }
