@@ -130,3 +130,21 @@ input{
 .regular-25 {
   font-size: 25px;
 }
+
+.img-rounded {
+  display: flex;
+  width: 130px;
+  height: 130px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin: 30px auto;
+}
+
+.img-basic {
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+  width: 130px;
+}
