@@ -75,8 +75,10 @@ hr {
 
 .btn-white {
   background-color: white;
-  padding: 5px 10px;
+  padding: 5px 20px;
   border-radius: 6px;
+  margin: 20px;
+  width: 170px;
   color: #EB5651;
 }
 
@@ -107,29 +109,8 @@ input{
   font-size: 10px;
 }
 
-// .light-35 {
-//   font-size: 35px;
-//   font-weight: lighter;
-// }
 
-// // .30-light {
-// //   font-size: 35px;
-// //   font-weight: light;
-// // }
-
-// .light-25 {
-//   font-size: 25px;
-//   font-weight: lighter;
-// }
-
-// .light-22 {
-//   font-size: 22px;
-//   font-weight: lighter;
-// }
-
-// .regular-25 {
-//   font-size: 25px;
-// }
+// POUR LES CONTOURS DES ICONES
 
 .img-rounded {
   display: flex;
