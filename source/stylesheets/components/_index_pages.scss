@@ -107,29 +107,29 @@ input{
   font-size: 10px;
 }
 
-.light-35 {
-  font-size: 35px;
-  font-weight: lighter;
-}
-
-// .30-light {
+// .light-35 {
 //   font-size: 35px;
-//   font-weight: light;
+//   font-weight: lighter;
 // }
 
-.light-25 {
-  font-size: 25px;
-  font-weight: lighter;
-}
+// // .30-light {
+// //   font-size: 35px;
+// //   font-weight: light;
+// // }
 
-.light-22 {
-  font-size: 22px;
-  font-weight: lighter;
-}
+// .light-25 {
+//   font-size: 25px;
+//   font-weight: lighter;
+// }
 
-.regular-25 {
-  font-size: 25px;
-}
+// .light-22 {
+//   font-size: 22px;
+//   font-weight: lighter;
+// }
+
+// .regular-25 {
+//   font-size: 25px;
+// }
 
 .img-rounded {
   display: flex;
@@ -138,15 +138,54 @@ input{
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  border: 1px solid black;
+  border: 3px solid #EB5B51;
   margin: 30px auto;
 }
 
 .img-basic {
   display: flex;
   justify-content: center;
-  margin: 30px auto;
+  margin: 0 auto;
+  margin-bottom: 30px;
   width: 130px;
+}
+
+
+// DEFINITION OF THE FLEXBOX FOR THE VALUES SECTION OF HP
+
+
+
+@media(max-width: 720px) {
+ .values {
+   padding-top: 40px;
+   display: flex;
+   // justify-content: center;
+   align-items: flex-start;
+   flex-wrap: wrap;
+ }
+}
+
+.values {
+  padding-top: 40px;
+  display: flex;
+  // justify-content: center;
+  align-items: flex-start;
+  // flex-wrap: wrap;
+}
+
+.value-title {
+  font-weight: bolder;
+  padding-right: 30px;
+  min-width: 150px;
+  flex: none;
+}
+
+.margin-hr-value {
+  margin-top: 10px;
+  margin-right: 30px;
+  margin-left: 0px;
+  width: 50px;
+  flex: none;
 }
 
 
