@@ -13,13 +13,13 @@ hr {
 
 @media(max-width: 720px) {
   .hp-container {
-    padding: 20px 25px;
+    padding: 60px 25px;
   }
 }
 
 @media(min-width: 720px) {
   .hp-container {
-    padding: 60px 200px;
+    padding: 130px 200px;
   }
 }
 
@@ -42,7 +42,8 @@ hr {
 
 .hp-card-title {
   font-weight: bold;
-  padding-bottom: 15px;
+  padding-bottom: 60px;
+  font-size: 15px;
 }
 
 .white {
@@ -128,7 +129,8 @@ input{
   justify-content: center;
   margin: 0 auto;
   margin-bottom: 30px;
-  width: 130px;
+  height: 60px;
+  width: 35px;
 }
 
 
