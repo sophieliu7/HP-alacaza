@@ -21,6 +21,10 @@
   margin-bottom: 7px;
 }
 
+.navbar-wagon-brand-small img {
+  height: 40px;
+}
+
 /* User Avatar */
 .navbar-wagon .avatar {
   height: 35px;
@@ -37,7 +41,7 @@
 
 /* Basic navbar item */
 .navbar-wagon-item {
-  // cursor: pointer;
+  cursor: pointer;
   padding: 0 20px;
   margin-top: 5px;
 }
@@ -46,7 +50,6 @@
   color: #616668;
   font-size: 14px;
 }
-
 /* Navbar link */
 .navbar-wagon-link {
   color: #616668;
